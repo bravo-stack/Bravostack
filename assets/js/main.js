@@ -31,6 +31,7 @@ navLink.forEach((item) => {
 
 
 /*==================== ACCORDION SKILLS ====================*/
+// not gonna be working on this section coz, i'm sticking with the front end development, no additional section
 
 
 /*==================== QUALIFICATION TABS ====================*/
