@@ -35,9 +35,27 @@ navLink.forEach((item) => {
 
 
 /*==================== QUALIFICATION TABS ====================*/
+// not needed FOR NOW!!!!!
 
 
 /*==================== SERVICES MODAL ====================*/
+const services = document.querySelectorAll(".services_modal");
+const openBtn = document.querySelectorAll(".services_button");
+const closeBtn = document.querySelectorAll(".services_modal-close")
+
+openBtn.forEach((btn, index) => {
+    btn.addEventListener("click", () => {
+        services[index].classList.add("active_modal")
+    })
+})
+
+closeBtn.forEach((btn, index) => {
+    btn.addEventListener("click", () => {
+        services[index].classList.remove("active_modal")
+    })
+})
+
+
 
 
 /*==================== PORTFOLIO SWIPER  ====================*/
