@@ -557,7 +557,7 @@ a:active {
     position: relative;
     background-color: var(--container-color);
     padding: 1.5rem;
-    border-radius: .75rem;
+    border-radius: .5rem;
 }
 
 .services_modal-services {
