@@ -550,7 +550,7 @@ a:active {
     z-index: var(--z-modal);
     opacity: 0;
     visibility: hidden;
-    transition: .3s;
+    transition: .4s;
 }
 
 .services_modal-content {
