@@ -55,6 +55,12 @@ closeBtn.forEach((btn, index) => {
     })
 })
 
+services.forEach((modal) => {
+    modal.addEventListener("click", () => {
+        modal.classList.remove("active_modal")
+    })
+})
+
 
 
 
