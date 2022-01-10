@@ -13,7 +13,7 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
         
         <!--==================== SWIPER CSS ====================-->
-        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css"/>
         
         <!--==================== CSS ====================-->
         <link rel="stylesheet" href="assets/css/style.css">
@@ -164,7 +164,7 @@
                         </div>
 
                         <div class="about_buttons">
-                            <a download="" href="assets/pdf/Onuh Chukwuebuka.pdf" class="button button--flex">
+                            <a download="" href="assets/pdf/BravoStack CV.pdf" class="button button--flex">
                                 Download CV<i class="uil uil-download-alt button_icon"></i>
                             </a>
                         </div>
@@ -326,12 +326,15 @@
             <section class="portfolio section" id="portfolio">
                 <h2 class="section_title">Portfolio</h2>
                 <span class="section_subtitle">Most recent work</span>
-
-                <div class="portfolio_container container swiper">
-                    <div swiper-wrapper>
+                
+                <!-- Slider main container -->
+                <div class="portfolio_container container swiper-container">
+                    
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
 
                         <!-- =============== PORTFOLIO 1 ============== -->
-                        <div class="portfolio_content grid swiper-wrapper">
+                        <div class="portfolio_content grid swiper-slide">
                             <img src="assets/img/portfolio1.jpg" alt="" class="portfolio_img">
 
                             <div class="portfolio_data">
@@ -345,7 +348,7 @@
                         </div>
 
                         <!-- =============== PORTFOLIO 2 ============== -->
-                        <div class="portfolio_content grid swiper-wrapper">
+                        <div class="portfolio_content grid swiper-slide">
                             <img src="assets/img/portfolio2.jpg" alt="" class="portfolio_img">
 
                             <div class="portfolio_data">
@@ -359,7 +362,7 @@
                         </div>
 
                         <!-- =============== PORTFOLIO 3 ============== -->
-                        <div class="portfolio_content grid swiper-wrapper">
+                        <div class="portfolio_content grid swiper-slide">
                             <img src="assets/img/portfolio3.jpg" alt="" class="portfolio_img">
 
                             <div class="portfolio_data">
@@ -372,7 +375,13 @@
                             </div>
                         </div>
                     </div>
-                </div>
+
+                    <!-- Add Arrows -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>    
             </section>
 
             <!--============== PROJECT IN MIND ================-->
