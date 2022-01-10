@@ -8,9 +8,12 @@
 
         <!--==================== UNICONS ====================-->
         <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">        
+
+        <!-- ====================== DEVICON ================== -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
         
         <!--==================== SWIPER CSS ====================-->
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
         
         <!--==================== CSS ====================-->
         <link rel="stylesheet" href="assets/css/style.css">
@@ -50,7 +53,7 @@
                             </a>
                         </li>
                         <li class="nav_item">
-                            <a href="#porfolio" class="nav_link">
+                            <a href="#portfolio" class="nav_link">
                                 <i class="uil uil-scenery nav_icon"></i> Portfolio
                             </a>
                         </li>
@@ -196,50 +199,36 @@
                                 <div class="skills_data">
                                     <div class="skills_titles">
                                         <h3 class="skills_name">HTML</h3>
-                                        <span class="skills_number">93%</span>
-                                    </div>
-                                    <div class="skills_bar">
-                                        <span class="skills_percentage skills_html"></span>
+                                        <i class="devicon-html5-plain-wordmark colored skills-check"></i>
                                     </div>
                                 </div>
 
                                 <div class="skills_data">
                                     <div class="skills_titles">
                                         <h3 class="skills_name">CSS</h3>
-                                        <span class="skills_number">87%</span>
-                                    </div>
-                                    <div class="skills_bar">
-                                        <span class="skills_percentage skills_css"></span>
+                                        <i class="devicon-css3-plain-wordmark colored skills-check"></i>
+
                                     </div>
                                 </div>
 
                                 <div class="skills_data">
                                     <div class="skills_titles">
                                         <h3 class="skills_name">Bootstrap</h3>
-                                        <span class="skills_number">34%</span>
-                                    </div>
-                                    <div class="skills_bar">
-                                        <span class="skills_percentage skills_bootstrap"></span>
+                                        <i class="devicon-bootstrap-plain-wordmark colored skills-check"></i>
                                     </div>
                                 </div>
 
                                 <div class="skills_data">
                                     <div class="skills_titles">
                                         <h3 class="skills_name">Javascript</h3>
-                                        <span class="skills_number">75%</span>
-                                    </div>
-                                    <div class="skills_bar">
-                                        <span class="skills_percentage skills_js"></span>
+                                        <i class="devicon-javascript-plain colored skills-check"></i>
                                     </div>
                                 </div>
 
                                 <div class="skills_data">
                                     <div class="skills_titles">
                                         <h3 class="skills_name">React</h3>
-                                        <span class="skills_number">35%</span>
-                                    </div>
-                                    <div class="skills_bar">
-                                        <span class="skills_percentage skills_react"></span>
+                                        <i class="devicon-react-original-wordmark colored skills-check"></i>
                                     </div>
                                 </div>
 
@@ -334,7 +323,57 @@
             </section>
 
             <!--================== PORTFOLIO ==================-->
-            <section class="portfolio section" id="portfolio"></section>
+            <section class="portfolio section" id="portfolio">
+                <h2 class="section_title">Portfolio</h2>
+                <span class="section_subtitle">Most recent work</span>
+
+                <div class="portfolio_container container swiper">
+                    <div swiper-wrapper>
+
+                        <!-- =============== PORTFOLIO 1 ============== -->
+                        <div class="portfolio_content grid swiper-wrapper">
+                            <img src="assets/img/portfolio1.jpg" alt="" class="portfolio_img">
+
+                            <div class="portfolio_data">
+                                <h3 class="portfolio_title">Modern Website</h3>
+                                <p class="portfolio_description">Website adaptable to all devices, with ui components and animated interactions.</p>
+                                <a href="#" class="button button--flex button--small portfolio_button">
+                                    Source Code
+                                    <i class="uil uil-arrow-right button_icon"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- =============== PORTFOLIO 2 ============== -->
+                        <div class="portfolio_content grid swiper-wrapper">
+                            <img src="assets/img/portfolio2.jpg" alt="" class="portfolio_img">
+
+                            <div class="portfolio_data">
+                                <h3 class="portfolio_title">Brand Design</h3>
+                                <p class="portfolio_description">Website adaptable to all devices, with ui components and animated interactions.</p>
+                                <a href="#" class="button button--flex button--small portfolio_button">
+                                    Source Code
+                                    <i class="uil uil-arrow-right button_icon"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- =============== PORTFOLIO 3 ============== -->
+                        <div class="portfolio_content grid swiper-wrapper">
+                            <img src="assets/img/portfolio3.jpg" alt="" class="portfolio_img">
+
+                            <div class="portfolio_data">
+                                <h3 class="portfolio_title">Online Store</h3>
+                                <p class="portfolio_description">Website adaptable to all devices, with ui components and animated interactions.</p>
+                                <a href="#" class="button button--flex button--small portfolio_button">
+                                    Source Code
+                                    <i class="uil uil-arrow-right button_icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
             <!--============== PROJECT IN MIND ================-->
             <section class="project section"></section>
@@ -357,7 +396,7 @@
         
 
         <!--==================== SWIPER JS ====================-->
-        <script src=""></script>
+        <script src="assets/js/swiper-bundle.min.js"></script>
 
         <!--==================== MAIN JS ====================-->
         <script src="assets/js/main.js"></script>
