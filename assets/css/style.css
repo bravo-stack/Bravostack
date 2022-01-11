@@ -585,7 +585,7 @@ a:active {
 }
 
 .portfolio_description {
-    margin-bottom: var(--mb-0-75);
+    margin-bottom: var(--mb-1);
 }
 
 .portfolio_button:hover .button_icon {
@@ -603,11 +603,11 @@ a:active {
 }
 
 .swiper-button-prev {
-    left: -.5rem;
+    left: -.75rem;
 }
 
 .swiper-button-next {
-    right: -.5rem;
+    right: -.75rem;
 }
 
 .swiper-container-horizontal > .swiper-pagination-bullets{
@@ -624,8 +624,14 @@ a:active {
     outline: none;
 }
 
+.btn-align-center {
+    /* align-self: center; */
+    margin: 1rem 1.5rem 0 1.5rem;
+}
 
-
+.justify-txts {
+    text-align: justify;
+}
 
 
 
