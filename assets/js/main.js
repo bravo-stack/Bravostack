@@ -2,6 +2,7 @@
 const navMenu = document.querySelector("#nav-menu");
 const navToggle = document.querySelector("#nav-toggle");
 const navClose = document.querySelector("#nav-close");
+const main = document.querySelector(".main")
 
 /*===== MENU SHOW =====*/
 /* Validate if constant exists */
@@ -28,6 +29,13 @@ navLink.forEach((item) => {
         navMenu.style.bottom = "-100%"
     })
 })
+
+// HIDE MENU IF IT'S OPEN AND USER CLICK ON THE BACKGROUND
+if(main) {
+    main.addEventListener("click", () => {
+        navMenu.style.bottom = "-100%";
+    })
+}
 
 
 /*==================== ACCORDION SKILLS ====================*/

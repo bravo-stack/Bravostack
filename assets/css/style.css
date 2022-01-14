@@ -243,6 +243,11 @@ a:active {
     color: var(--first-color);
 }
 
+/* For Anchor Tags */
+a {
+    color: var(--first-color);
+}
+
 
 /* Change background header */
 
