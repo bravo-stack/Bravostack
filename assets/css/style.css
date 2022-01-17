@@ -66,7 +66,21 @@
 
 
 /*========== Button Dark/Light ==========*/
+.nav_btns {
+    display: flex;
+    align-items: center;
+}
 
+.change-theme {
+    font-size: 1.25rem;
+    color: var(--text-color);
+    margin-right: var(--mb-1);
+    cursor: pointer;
+}
+
+.change-theme:hover {
+    color: var(--first-color);
+}
 
 /*==================== BASE ====================*/
 * {
@@ -164,7 +178,7 @@ img {
 
 .nav_logo,
 .nav_toggle {
-    color: var(--first-color-alt);
+    color: var(--title-color);
     font-weight: var(--font-medium);
 }
 
@@ -173,7 +187,7 @@ img {
 }
 
 .nav_logo:hover {
-    color: var(--first-color-lighter);
+    color: var(--first-color);
 }
 
 .nav_toggle {
@@ -182,7 +196,7 @@ img {
 }
 
 .nav_toggle:hover {
-    color: var(--first-color-lighter);
+    color: var(--first-color);
 }
 
 .nav_list {
