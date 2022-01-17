@@ -76,10 +76,6 @@
     outline: none;
 }
 
-/* *:focus {
-    outline: 1px solid var(--first-color);
-} */
-
 html {
     scroll-behavior: smooth;
 }
@@ -139,13 +135,11 @@ img {
     max-width: 768px;
     margin-left: var(--mb-1-5);
     margin-right: var(--mb-1-5);
-    /* background-color: blue; */
 }
 
 .grid {
     display: grid;
     gap: 1.5rem;
-    /* background-color: brown; */
 }
 
 .header {
@@ -205,7 +199,7 @@ img {
 }
 
 .nav_list:hover {
-    color: var(--first-color);
+    color: var(--first-color-lighter);
 }
 
 .nav_icon {
@@ -250,7 +244,7 @@ img {
 }
 
 /* Active link */
-a:active {
+.active-link {
     color: var(--first-color);
 }
 
@@ -285,7 +279,6 @@ a:active {
 .home_blob {
     max-width: 200px;
     fill: var(--first-color);
-    /* margin-left: var(--mb-1); */
 }
 
 .home_blob-img {
@@ -392,9 +385,9 @@ a:active {
 
 
 /*==================== ABOUT ====================*/
-.about_whie-color {
+/* .about_white-color {
     color: #FFF;
-}
+} */
 
 .about_img {
     width: 200px;
@@ -448,7 +441,7 @@ a:active {
 
 .skills_icon,
 .skills_arrow {
-    font-size: 2rem;
+    font-size: 1.75rem;
     color: var(--first-color);
 }
 
@@ -465,7 +458,7 @@ a:active {
 
 .skills_subtitle {
     font-size: var(--small-font-size);
-    color: var(--text-color-light);
+    color: var(--text-black);
 }
 
 .skill_arrow {
@@ -652,7 +645,6 @@ a:active {
 }
 
 .btn-align-center {
-    /* align-self: center; */
     margin: 1rem 1.5rem 0 1.5rem;
 }
 
@@ -759,12 +751,12 @@ a:active {
     color: var(--first-color-lighter);
 }
 
-.footer_socials {
-    font-size: 1.25rem;
+.footer_social {
+    font-size: 1.5rem;
     margin-right: var(--mb-1-5);
 }
 
-footer_socials:hover {
+.footer_social:hover {
     color: var(--first-color-lighter);
 }
 
