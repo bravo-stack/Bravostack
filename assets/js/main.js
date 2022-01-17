@@ -89,6 +89,13 @@ let swiper = new Swiper('.swiper-container', {
     keyboard: true,
 });
 
+/*======================= FOOTER ===================*/
+const currentYear = document.querySelector("#current-year")
+
+const yearText = new Date().getFullYear();
+
+currentYear.textContent = yearText.toString()
+
 
 /*==================== TESTIMONIAL ====================*/
 
