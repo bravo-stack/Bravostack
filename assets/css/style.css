@@ -390,10 +390,8 @@ a:active {
     color: var(--first-color-alt);
 }
 
+
 /*==================== ABOUT ====================*/
-
-
-
 .about_whie-color {
     color: #FFF;
 }
@@ -586,8 +584,6 @@ a:active {
     margin-right: var(--mb-0-25);
 }
 
-
-
 /* Active Modal */
 .active_modal {
     opacity: 1;
@@ -745,12 +741,12 @@ a:active {
 }
 
 .footer_title {
-    font-size: var(--h1-font-size);
+    font-size: var(--big-font-size);
     margin-bottom: var(--mb-0-25);
 }
 
 .footer_subtitle {
-    font-size: var(--small-font-size);
+    font-size: var(--normal-font-size);
 }
 
 .footer_links {
@@ -771,6 +767,21 @@ a:active {
 footer_socials:hover {
     color: var(--first-color-lighter);
 }
+
+.footer_copy {
+    font-size: var(--small-font-size);
+    text-align: center;
+    color: rgba(255, 255, 255, .7);
+    margin-top: var(--mb-3);
+}
+
+.footer_title,
+.footer_subtitle,
+.footer_link,
+.footer_social {
+    color: #FFF;
+}
+
 
 /*========== SCROLL UP ==========*/
 

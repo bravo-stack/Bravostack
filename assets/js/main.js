@@ -3,6 +3,7 @@ const navMenu = document.querySelector("#nav-menu");
 const navToggle = document.querySelector("#nav-toggle");
 const navClose = document.querySelector("#nav-close");
 const main = document.querySelector(".main")
+const footer = document.querySelector(".footer");
 
 /*===== MENU SHOW =====*/
 /* Validate if constant exists */
@@ -30,20 +31,21 @@ navLink.forEach((item) => {
     })
 })
 
+
 // HIDE MENU IF IT'S OPEN AND USER CLICK ON THE BACKGROUND
+const dropMenu = () => {
+    navMenu.style.bottom = "-100%";
+}
+
 if(main) {
-    main.addEventListener("click", () => {
-        navMenu.style.bottom = "-100%";
-    })
+    main.addEventListener("click", dropMenu)
+}
+
+if(footer) {
+    footer.addEventListener("click", dropMenu)
 }
 
 
-/*==================== ACCORDION SKILLS ====================*/
-// not gonna be working on this section coz, i'm sticking with the front end development, no additional section
-
-
-/*==================== QUALIFICATION TABS ====================*/
-// not needed FOR NOW!!!!!
 
 
 /*==================== SERVICES MODAL ====================*/
