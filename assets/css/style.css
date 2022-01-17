@@ -178,7 +178,7 @@ img {
 
 .nav_logo,
 .nav_toggle {
-    color: var(--title-color);
+    color: var(--first-color);
     font-weight: var(--font-medium);
 }
 
@@ -187,7 +187,7 @@ img {
 }
 
 .nav_logo:hover {
-    color: var(--first-color);
+    color: var(--first-color-lighter);
 }
 
 .nav_toggle {
@@ -196,7 +196,7 @@ img {
 }
 
 .nav_toggle:hover {
-    color: var(--first-color);
+    color: var(--first-color-lighter);
 }
 
 .nav_list {
@@ -765,6 +765,11 @@ img {
     color: var(--first-color-lighter);
 }
 
+.footer_socials {
+    display: flex;
+    justify-content: center;
+}
+
 .footer_social {
     font-size: 1.5rem;
     margin-right: var(--mb-1-5);
@@ -778,7 +783,7 @@ img {
     font-size: var(--small-font-size);
     text-align: center;
     color: rgba(255, 255, 255, .7);
-    margin-top: var(--mb-3);
+    margin-top: var(--mb-1-5);
 }
 
 .footer_title,
