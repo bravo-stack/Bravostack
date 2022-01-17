@@ -137,19 +137,19 @@
             </section>
 
             <!--==================== ABOUT ====================-->
-            <section class="about section" id="about">
-                <h2 class="section_title">About Me</h2>
+            <section class="about section gray_bg" id="about">
+                <h2 class="section_title ">About Me</h2>
                 <span class="section_subtitle">My introduction</span>
 
                 <div class="about_container container grid">
                     <img src="assets/img/about.jpeg" alt="about me" class="about_img">
 
                     <div class="about_data">
-                        <p class="about_description">
+                        <p class="about_description ">
                             Frontend developer, with extensive knowledge and years of experience in web development, and delivering quality products.
                         </p>
 
-                        <div class="about_info">
+                        <div class="about_info ">
                             <div>
                                 <span class="about_info-title">02+</span>
                                 <span class="about_info-name">Years <br> experience</span>
@@ -167,7 +167,7 @@
                         </div>
 
                         <div class="about_buttons">
-                            <a download="" href="assets/pdf/BravoStack CV.pdf" class="button button--flex">
+                            <a download="" href="assets/pdf/BravoStack CV.pdf" class="button button--flex about_btn">
                                 Download Resume<i class="uil uil-download-alt button_icon"></i>
                             </a>
                         </div>
@@ -242,12 +242,8 @@
                 </div>
             </section>
 
-            <!-- ================ QUALIFICATION ================
-            <section class="qualification section">
-            </section> -->
-
             <!--================== SERVICES ====================-->
-            <section class="services section" id="services">
+            <section class="services section gray_bg" id="services">
                 <h2 class="section_title">Services</h2>
                 <span class="section_subtitle">What i offer</span>
 
@@ -339,7 +335,7 @@
                             <img src="assets/img/portfolio1.png" alt="" class="portfolio_img">
 
                             <div class="portfolio_data">
-                                <h3 class="portfolio_title">Modern Web App</h3>
+                                <h3 class="portfolio_title justify-txts">Modern Web App</h3>
                                 <p class="portfolio_description justify-txts">Building modern websites and applications, that are cross-browser compatible and adapts to all devices, with ui components and animated interactions.</p>
                                 
                             </div>
@@ -350,7 +346,7 @@
                             <img src="assets/img/portfolio2.png" alt="" class="portfolio_img">
 
                             <div class="portfolio_data">
-                                <h3 class="portfolio_title">Responsive UI</h3>
+                                <h3 class="portfolio_title justify-txts">Responsive UI</h3>
                                 <p class="portfolio_description justify-txts">Building responsive user interface (UI) at a lower cost, lower maintenance needs, and also to keep visitors engaged to lower bounce rates.</p>
                             </div>
                         </div>
@@ -360,7 +356,7 @@
                             <img src="assets/img/portfolio3.png" alt="" class="portfolio_img">
 
                             <div class="portfolio_data">
-                                <h3 class="portfolio_title">Online Store</h3>
+                                <h3 class="portfolio_title justify-txts">Online Store</h3>
                                 <p class="portfolio_description justify-txts">Building online stores that take into consideration, your further promotion (SEO-promotion, internet marketing technologies) looking into effective sales.</p>
                             </div>
                         </div>
@@ -375,10 +371,12 @@
                     </div>
 
                     <!-- Contact Buttons -->
-                    <a href="#contact" class="button button--flex button--small portfolio_button btn-align-center">
-                        Contact me now
-                        <i class="uil uil-arrow-right button_icon"></i>
-                    </a>
+                    <div class="portfolio-btn_container">
+                        <a href="#contact" class="button button--flex button--small portfolio_button btn-align-center">
+                            Contact me now
+                            <i class="uil uil-arrow-right button_icon"></i>
+                        </a>
+                    </div>
 
                     <!-- Add Pagination -->
                     <div class="swiper-pagination"></div>
@@ -392,19 +390,12 @@
                         <div class="project_data">
                             <h2 class="project_title">You have a new project?</h2>
                             <p class="project_description">Contact me now and get a 35% discount on your new project.</p>
-                            <a href="#contact" class="button button--flex button--white">
-                                Contact me<i class="uil uil-message project_icon button_icon"></i>
-                            </a>
                         </div>
 
-                        <img src="./assets/img/project1.png" alt="a good photograph of myself">
+                        <img class="project_img" src="./assets/img/newproject.png" alt="a good photograph of myself">
                     </div>
                 </div>
             </section>
-
-            <!--================== TESTIMONIAL ================-->
-            <!-- <section class="testimonial section">
-            </section> -->
 
             <!--================= CONTACT ME ==================-->
             <section class="contact section" id="contact">
@@ -443,34 +434,6 @@
                             </div>
                         </div>
                     </div>
-
-                    <form action="" class="contact_form grid">
-                        <div class="contact_inputs grid">
-                            <div class="contact_content">
-                                <label for="" class="contact_label">Name</label>
-                                <input type="text" class="contact_input">
-                            </div>
-                            <div class="contact_content">
-                                <label for="" class="contact_label">Email</label>
-                                <input type="email" class="contact_input">
-                            </div>
-                        </div>
-                        <div class="contact_content">
-                            <label for="" class="contact_label">Project</label>
-                            <input type="text" class="contact_input">
-                        </div>
-                        <div class="contact_content">
-                            <label for="" class="contact_label">Message</label>
-                            <textarea name="" class="contact_input text-area-resize" id="" cols="0" rows="7"></textarea>
-                        </div>
-
-                        <div>
-                            <a href="" class="button button--flex">
-                                Send Message
-                                <i class="uil uil-message button_icon"></i>
-                            </a>
-                        </div>
-                    </form>
                 </div>
             </section>
 
@@ -497,7 +460,7 @@
                         <a href="" class="footer_social">
                             <i class="uil uil-facebook-f"></i>
                         </a>
-                        <a href="" class="footer_social">
+                        <a href="" class="footer_socia0l">
                             <i class="uil uil-twitter"></i>
                         </a>
                         <a href="" class="footer_social">
@@ -506,7 +469,9 @@
                     </div>
                 </div>
 
-                <p class="footer_copy">&copy; <span id="current-year"></span> Bravostack. All rights reserved.</p>
+                <p class="footer_copy">
+                    Copyright &copy; <span id="current-year"></span> Bravostack. All rights reserved.
+                </p>
             </div>
         </footer>
         

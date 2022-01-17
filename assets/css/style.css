@@ -22,6 +22,13 @@
     --body-color: hsl(var(--hue-color), 60%, 99%);
     --container-color: #FFF;
 
+    /* ======== subtitle colo (black) =========== */
+    --subtitle-black: rgb(39, 39, 39);
+
+
+    /*============ text black =============*/
+    --text-black: rgb(79, 79, 79);
+
     /*========== Font and typography ==========*/
     --body-font: 'Poppins', sans-serif;
     /* .5rem = 8px, 1rem = 16px, 1.5rem = 24px ... */
@@ -82,7 +89,7 @@ body {
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
     background-color: var(--body-color);
-    color: var(--text-color);
+    color: var(--text-black);
 }
 
 h1,h2,h3,h4 {
@@ -114,12 +121,17 @@ img {
 
 .section_subtitle {
     display: block;
-    font-size: var(--small-font-size);
+    font-size: var(--normal-font-size);
     margin-bottom: var(--mb-3);
+    color: var(--subtitle-black);
 }
 
 .section_title, .section_subtitle {
     text-align: center;
+}
+
+.gray_bg {
+    background-color: #f7f7f8;
 }
 
 /*==================== LAYOUT ====================*/
@@ -237,24 +249,10 @@ img {
     margin: 0 5px;
 }
 
-
-/* show menu */
-/* .show-menu {
-    bottom: 0;
-} */
-
 /* Active link */
 a:active {
     color: var(--first-color);
 }
-
-/* For Anchor Tags */
-/* a {
-    color: var(--text-color);
-} */
-
-
-/* Change background header */
 
 
 /*==================== HOME ====================*/
@@ -305,14 +303,14 @@ a:active {
 
 .home_subtitle {
     font-size: var(--h3-font-size);
-    color: var(--text-color);
+    color: var(--text-black);
     font-weight: var(--font-medium);
     margin-bottom: var(--mb-0-75);
 }
 
 .home_description {
     margin-bottom: var(--mb-2);
-    ;
+    color: var(--text-color);
 }
 
 .home_scroll {
@@ -393,6 +391,13 @@ a:active {
 }
 
 /*==================== ABOUT ====================*/
+
+
+
+.about_whie-color {
+    color: #FFF;
+}
+
 .about_img {
     width: 200px;
     border-radius: .5rem;
@@ -412,13 +417,12 @@ a:active {
 }
 
 .about_info-title {
-    font-size: var(--h2-font-size);
+    font-size: var(--h1-font-size);
     font-weight: var(--font-semi-bold);
-    color: var(--title-color);
 }
 
 .about_info-name {
-    font-size: var(--smaller-font-size);
+    font-size: var(--normal-font-size);
 }
 
 .about_info-title,
@@ -431,8 +435,6 @@ a:active {
     display: flex;
     justify-content: center;
 }
-
-
 
 /*==================== SKILLS ====================*/
 .skill_container {
@@ -490,18 +492,8 @@ a:active {
 }
 
 .skills-check {
-    /* color: var(--first-color); */
     font-size: 2rem;
 }
-
-/*==================== QUALIFICATION ====================*/
-/* no need for this tho */
-
-/*==================== SERVICES ====================*/
-/* .services_container {
-    gap: 1.5rem;
-    grid-template-columns: repeat(2, 1fr);
-} */
 
 .services_content {
     position: relative;
@@ -669,9 +661,14 @@ a:active {
 }
 
 .justify-txts {
-    text-align: justify;
+    text-align: center;
 }
 
+.portfolio-btn_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 /*==================== PROJECT IN MIND ====================*/
@@ -702,17 +699,14 @@ a:active {
     justify-self: center;
 }
 
-
-
-
-
-
-/*==================== TESTIMONIAL ====================*/
+.project_container {
+    padding-bottom: 2.5rem;
+}
 
 
 /*==================== CONTACT ME ====================*/
 .contact_container {
-    row-gap: 3rem;;
+    row-gap: 3 rem;
 }
 
 .contact_information {
@@ -736,34 +730,47 @@ a:active {
     color: var(--text-color);
 }
 
-.contact_content {
-    background-color: var(--input-color);
-    border-radius: .5rem;
-    padding: .75rem 1rem .25rem ;
-}
-
-.contact_label {
-    font-size: var(--small-font-size);
-    color: var(--title-color);
-}
-
-.contact_input {
-    width: 100%;
-    background-color: var(--input-color);
-    color: var(--text-color);
-    font-family: var(--body-font);
-    font-size: var(--normal-font-size);
-    border:none;
-    outline: none;
-    padding: .25rem .5rem .5rem 0;
-}
-
-.text-area-resize {
-    resize: none;
-}
-
 /*==================== FOOTER ====================*/
+.footer {
+    padding-top: 2rem;
+}
 
+.footer_container {
+    row-gap: 3.5rem;
+}
+
+.footer_bg {
+    background-color: var(--first-color-second);
+    padding: 2rem 0 3rem;
+}
+
+.footer_title {
+    font-size: var(--h1-font-size);
+    margin-bottom: var(--mb-0-25);
+}
+
+.footer_subtitle {
+    font-size: var(--small-font-size);
+}
+
+.footer_links {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+}
+
+.footer_link:hover {
+    color: var(--first-color-lighter);
+}
+
+.footer_socials {
+    font-size: 1.25rem;
+    margin-right: var(--mb-1-5);
+}
+
+footer_socials:hover {
+    color: var(--first-color-lighter);
+}
 
 /*========== SCROLL UP ==========*/
 
