@@ -758,7 +758,11 @@ img {
 .footer_links {
     display: flex;
     flex-direction: column;
-    row-gap: 1.5rem;
+    /* row-gap: 1.5rem; */
+}
+
+.p-1-5 {
+    padding: 1.5rem 0;
 }
 
 .footer_link:hover {
