@@ -399,10 +399,6 @@ img {
 
 
 /*==================== ABOUT ====================*/
-/* .about_white-color {
-    color: #FFF;
-} */
-
 .about_img {
     width: 200px;
     border-radius: .5rem;
@@ -422,12 +418,13 @@ img {
 }
 
 .about_info-title {
-    font-size: var(--h1-font-size);
+    font-size: var(--h2-font-size);
     font-weight: var(--font-semi-bold);
+    color: var(--title-color);
 }
 
 .about_info-name {
-    font-size: var(--normal-font-size);
+    font-size: var(--smaller-font-size);
 }
 
 .about_info-title,
