@@ -234,7 +234,7 @@ img {
     cursor: pointer;
     color: #FFF;
     background-color: var(--first-color);
-    border: 1px solid var(--first-color-lighter);
+    border: 1px solid var(--first-color);
     border-radius: .75rem;
     padding: 2px 7.5px;
 }
