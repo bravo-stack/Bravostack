@@ -756,12 +756,12 @@ img {
 }
 
 .footer_title {
-    font-size: var(--big-font-size);
+    font-size: var(--h1-font-size);
     margin-bottom: var(--mb-0-25);
 }
 
 .footer_subtitle {
-    font-size: var(--normal-font-size);
+    font-size: var(--small-font-size);
 }
 
 .footer_links {
@@ -771,7 +771,7 @@ img {
 }
 
 .p-1-5 {
-    padding: 1.5rem 0;
+    padding: .5rem 0 .5rem;
 }
 
 .footer_link:hover {
@@ -793,9 +793,9 @@ img {
 }
 
 .footer_copy {
-    font-size: var(--small-font-size);
+    font-size: var(--smaller-font-size);
     text-align: center;
-    color: rgba(255, 255, 255, .7);
+    color: var(--text-color-light);
     margin-top: var(--mb-1-5);
 }
 
