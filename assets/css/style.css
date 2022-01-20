@@ -458,7 +458,7 @@ img {
 
 .skills_icon,
 .skills_arrow {
-    font-size: 1.75rem;
+    font-size: 2rem;
     color: var(--first-color);
 }
 
@@ -503,6 +503,8 @@ img {
     font-size: 2rem;
 }
 
+
+/*==================== SERVICES ====================*/
 .services_content {
     position: relative;
     background-color: var(--container-color);
