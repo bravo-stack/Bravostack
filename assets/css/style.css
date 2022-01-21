@@ -738,7 +738,7 @@ img {
 
 .contact_subtitle > a {
     font-size: var(--small-font-size);
-    color: var(--subtitle-color);
+    color: var(--text-color-light);
 }
 
 /*==================== FOOTER ====================*/
