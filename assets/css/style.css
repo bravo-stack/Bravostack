@@ -413,7 +413,7 @@ img {
     width: 200px;
     border-radius: .5rem;
     justify-self: center;
-    align-self: center;
+    align-self: flex-start;
 }
 
 .about_description {
@@ -679,6 +679,11 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.view_app_link {
+    color: var(--first-color);
+    display: block;
 }
 
 
