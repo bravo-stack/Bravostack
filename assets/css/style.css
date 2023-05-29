@@ -682,7 +682,7 @@ img {
 
 .view_app_link {
     color: var(--first-color);
-    display: block;
+    display: flex;
 }
 
 

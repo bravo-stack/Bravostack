@@ -41,6 +41,12 @@
         transition: .4s;
     }
 
+    .view_app_link {
+        color: var(--first-color);
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }    
 }
 
 /* For small devices */
